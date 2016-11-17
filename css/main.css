@@ -1,0 +1,99 @@
+/* Inserta tu CSS aqui */
+* {
+    outline: 1px solid rgba(255,0,0,0.4);
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Oswald", sans-serif;
+}
+h1,h2,h3 {
+    text-align: center;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------HEADER*/
+header {
+    background: url(../images/grey.png);
+}
+header ul {
+    list-style: none;
+    text-align: center;
+    padding:20px 0px;
+}
+header ul li {
+    display: inline-block;
+    margin:0px 40px;
+}
+header .menu {
+    font-size:20px;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------HERO*/
+.hero {
+    height: 600px;
+    background: url(../images/fondo2.jpg) no-repeat;
+    background-size: cover;
+}
+.hero .logo {
+    text-align: center;
+    vertical-align: middle;
+    padding-top:100px;
+}
+.hero h3 {
+    font-style: italic;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------FAVORITES*/
+.about {
+    background: url(../images/grey.png);
+    height: 500px;
+}
+.about .perfil {
+    float: right;
+}
+.about h2 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color:#4ca822;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------FAVORITES*/
+.favorites {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.favorites .fav {
+    border:2px solid #4ca822 ;
+    border-radius: 100%;
+    width:200px;
+    height:200px;
+    padding:5px;
+}
+.favorites h2,h3 {
+    color:#4ca822;
+}
+.favorites h3 {
+    color:grey;
+}
+.favorites .likes {
+    margin-top: 50px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------CONTACT*/
+.contact {
+    background: url(../images/contemporary_china_2.png); 
+    height: 300px;
+    padding-top: 50px;
+}
+
+.contact ul {
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+}
+.contact ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.contact h2 {
+    color:#4ca822;
+    text-align: center;
+}
